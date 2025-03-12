@@ -275,7 +275,7 @@ spec:
           exporters: [ otlphttp ]
 
         logs:
-          receivers: [otlp,k8sattributes]
+          receivers: [otlp]
           processors: [memory_limiter, k8sattributes,transform,batch]
           exporters: [otlphttp]
 
