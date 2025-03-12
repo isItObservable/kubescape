@@ -19,7 +19,7 @@ rules:
       - vulnerabilitymanifests
       - vulnerabilitysummaries
       - workloadconfigurationscansummaries
-      - generatednetworkpolicy
+      - generatednetworkpolicies
     verbs:
       - get
       - list
