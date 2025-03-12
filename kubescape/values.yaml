@@ -120,7 +120,7 @@ serviceScanConfig:
   interval: 1h
 
 configurations:
-  otelUrl: otel-collector.default.svc.cluster.local # default is empty
+  otelUrl: otel-collector.default.svc.cluster.local:4318 # default is empty
   persistence: enable
 
   # Enable Prometheus annotations, to allow open-source Prometheus (not operator) to scrape metrics
