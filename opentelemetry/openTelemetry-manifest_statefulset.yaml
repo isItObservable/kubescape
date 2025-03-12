@@ -65,7 +65,7 @@ spec:
           - name: workloadconfigurationscansummaries
             group: spdx.softwarecomposition.kubescape.io
             interval: 15m
-          - name: generatednetworkpolicy
+          - name: generatednetworkpolicies
             group: spdx.softwarecomposition.kubescape.io
             interval: 15m
       prometheus:
@@ -296,4 +296,3 @@ spec:
                   otlp:
                     protocol: grpc/protobuf
                     endpoint: http://localhost:4317
-
