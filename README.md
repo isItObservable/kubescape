@@ -102,4 +102,22 @@ The application will deploy the entire environment:
 chmod 777 deployment.sh
 ./deployment.sh  --clustername "${NAME}" --dturl "${DT_TENANT_URL}" --dtingesttoken "${DATA_INGEST_TOKEN}" --dtoperatortoken "${API_TOKEN}" 
 ```
+## Tutorial Steps
+
+### Kubearmor Notebook
+
+
+### Kubescape Dashboard
+
+Let's deploy the dashboard located : `dynatrace/kubescape dashboard.json`
+
+In dynatrace , Open The Dashboard application and click on upload
+<p align="center"><img src="/image/kubescape dashboard.json" width="40%" alt="kubescape dashboard" /></p>
+
+This dashboard will keep track on the health of tetragon:
+- ressource usage
+- the various rules
+
+
+all those dashboard are uisng the logs , spans and metris
 
